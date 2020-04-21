@@ -1,0 +1,42 @@
+body{
+  margin:0;
+  font: normal 16px Arial, Helvetica, sand-serif;
+  color:#333;
+}
+
+#particles-js{
+  background-size:cover;
+  background-color: #fff;
+  height: 100%;
+}
+
+#login{
+  background:#000;
+  color: #fff;
+  opacity:0.9;
+  padding:1;
+  border:#000 2px solid;
+  position:fixed;
+  top:15%;
+  left:10%;
+}
+
+.loginbox{
+  width: 320px;
+  height: 420px;
+  background: #000;
+  color: #fff;
+  top: 50%;
+  left:10%;
+  position:absolute;
+  transform:translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+
+#login input[type="text"], #login input[type="password"]{
+  padding:7px;
+  margin-bottom:10px;
+  border:1px #ccc solid;
+}

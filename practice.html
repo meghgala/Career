@@ -1,0 +1,156 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on main.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Signup Form</title>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/scicss.css">
+    <link rel="stylesheet" href="css/form.css">
+      <script type="text/javascript"> 
+        function validateform(){ 
+
+            var email1 = document.myform.email; 
+            var name2 = document.myform.uname;
+            var a = document.myform.phonenumber.value;
+        
+            if(a=="")
+            {
+                alert("please Enter the Mobile Number");
+                document.myform.num.focus();
+                return false;
+            }
+            if((a.length!=10))
+            {
+                alert(" Your Mobile Number must be 10 Integers");
+                document.myform.num.select();
+                return false;
+            }
+
+            if (email1.value.indexOf("@", 0) < 0)
+            {
+                window.alert("@ error");
+                emai1l.focus();
+                return false;
+            }   
+            if (email1.value.indexOf(".", 0) < 0)
+            {
+                window.alert(" . error");
+                email1.focus();
+                return false;
+            }
+            if (name2.value == "")
+            {
+                window.alert("Please enter your User name.");
+                name2.focus();
+                return false;
+            }
+            return true;
+            }  
+    </script> 
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="main-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="main-title mdl-layout-title">
+            <img class="main-logo-image" src="images/main-logo.png">
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="main-header-spacer mdl-layout-spacer"></div>
+        
+         
+          <!-- Navigation -->
+          <div class="main-navigation-container">
+            <nav class="main-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="cttrial.html">HOME</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">COURSES</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">APTITUDE TEST</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="loginform.html">LOGIN</a>
+            </nav>
+          </div>
+          <span class="main-mobile-title mdl-layout-title">
+            <img class="main-logo-image" src="images/main-logo.png">
+          </span>
+        </div>
+      </div>
+
+      <div class="main-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="main-logo-image" src="images/main-logo.png">
+        </span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="science.html">Science</a>
+          <a class="mdl-navigation__link" href="commerce.html">Commerce</a>
+          <a class="mdl-navigation__link" href="arts.html">Arts</a>
+          <a class="mdl-navigation__link" href="diploma.html">Diploma</a>
+          <a class="mdl-navigation__link" href="iti.html">ITI</a>
+          <div class="main-drawer-separator"></div>
+        </nav>
+      </div>
+
+      <div class="main-content mdl-layout__content">
+        <div class="sci-be-together-section mdl-typography--text-center">
+          
+          
+
+          <a href="#screens">
+            
+          </a>
+        </div> 
+        <div class="tableclass">
+        <div class="innertableclass">
+        <table>
+        		<tr><td><b><center>APTITUDE TEST IS NOT A TEST WHERE A STUDENT FAIL OR PASS.
+        		IT IS AN EXPLORATORY CAREER MAPING GUIDANCE WHEREIN EVERYBODY FINDS THE RIGHT COURT TO PLAY THE MATCH OF THERI CAREER<br>
+        		THESE ARE JUST RECOMENDATIONS BASED ON THIS PROFILER SO AS HOW YOU HAVE FARED WITH YOUR APTITUDE TEST.
+        		</center></b></td></tr></table>
+        </table>	
+        </div></div>
+<div class="formclass">
+  <form name="myform" action="register.php" method="post">
+    <label for="fname" >First Name</label>
+    <input type="text" name="firstname" placeholder="Your name"  required>
+    <br>
+    <label for="lname">Last Name</label>
+    <input type="text" name="lastname" placeholder="Your last name" required>
+    <br>
+    <label for="lname">Class</label>
+    <input type="text" name="class" placeholder="Grade" required>
+    <br>
+    <label for="lname">School/College</label>
+    <input type="text" name="firm" required>
+    <br>
+    <label for="lname">Average percentage scored</label>
+    <input type="text" name="avgpctg" required>
+    <br>
+    <label for="lname">Intrested career fields</label>
+    <input type="text" name="foi" required>
+    <br>
+    <label for="lname">Email</label>
+    <input type="text" name="email" placeholder="Enter your email-id" required>
+    <br>
+    <label for="lname">Phone Number</label>
+    <input type="text" name="phonenumber" placeholder="Your Phone Number" >
+    <br>
+    <label for="lname">Annual family income</label>
+    <input type="text" name="afi" placeholder="approx annual family income" required>
+    <br>
+      <br>
+    <input type="submit" value="Submit">
+    <label><a class="main-link mdl-typography--font-regular mdl-typography--text-uppercase" href="cttrial.html"><center>Alreary have an account?sign in.</center></a></label>
+  </form>
+        </div>
+      
+
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </body>
+</html>

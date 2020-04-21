@@ -1,0 +1,106 @@
+.sci-intro{
+position: relative;
+  text-align: center;
+  background-color: white;
+  padding: 24px;
+  color: black;
+  font-size: 150%;
+}
+.physics{
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  height: 100%;
+}
+.physicslogo{
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin-left: 0%;
+  padding: 28px;
+}
+.phytext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+  font-size: 120%;
+}
+.phytextlist{
+  max-width: 100%;
+  text-align: left;
+  color: white;
+}
+.chemistry{
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  height: 100%;
+}
+.chemistrylogo{
+  float: right;
+  height: 200px;
+  width: 200px;
+  margin-left: 0%;
+  padding: 32px;
+}
+.chemtext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: black;
+  font-size: 120%;
+}
+.chemtextlist{
+  max-width: 100%;
+  text-align: left;
+  color: black;
+}
+.biology{
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  height: 100%;
+}
+.biologylogo{
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin-left: 0%;
+  padding: 28px;
+}
+.biotext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+  font-size: 120%;
+}
+.biotextlist{
+  max-width: 100%;
+  text-align: left;
+  color: white;
+}
+.sci-title{
+position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  font-size:150%;
+  color: black;
+}
+.scilogo{
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+}
+
+.sci-be-together-section {
+  position: absolute;
+  height: 800px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('images/book3.jpg') center 30% no-repeat;
+  background-size: cover;
+}

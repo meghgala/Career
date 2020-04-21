@@ -1,0 +1,112 @@
+.sci-be-together-section {
+  position: absolute;
+  height: 800px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('images/book3.jpg') center 30% no-repeat;
+  background-size: cover;
+}
+.artslogo{
+  background-size: cover;
+  height: 300px;
+  width: 500px;
+}
+.arts-title{
+position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  font-size:150%;
+  color: black;
+}
+.arts-intro{
+position: relative;
+  text-align: center;
+  background-color: white;
+  padding: 24px;
+  color: black;
+  font-size: 150%;
+  height:100%;
+}
+
+.economics{
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  height: 100%;
+}
+.ecologo{
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin-left: 0%;
+  padding: 5%;
+}
+.ecotext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+  font-size: 120%;
+}
+.ecotextlist{
+  max-width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 100%;
+}
+
+.bs{
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  height: 100%;
+  font-weight: bold;
+}
+.bslogo{
+  float: right;
+  height: 200px;
+  width: 200px;
+  margin-left: 0%;
+  padding: 5%;
+}
+.bstext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: black;
+  font-size: 120%;
+}
+.bstextlist{
+  max-width: 100%;
+  text-align: left;
+  color: black;
+  font-size: 100%;
+}
+.accounts{
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  height: 100%;
+}
+.acclogo{
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin-left: 0%;
+  padding: 5%;
+}
+.acctext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+  font-size: 120%;
+}
+.acctextlist{
+  max-width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 100%;
+}

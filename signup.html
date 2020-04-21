@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup form design</title>
+	<link rel="stylesheet" type="text/css" href="css/signup.css">
+
+	<!--JAVASCRIPT FORM.........................................................-->
+	<script type="text/javascript"> 
+ 	
+ 	function validateform1()
+ 	{
+ 		var email1 = document.myform1.email;
+ 		var a = document.myform1.phonenumber.value;
+
+ 		    if (email1.value.indexOf("@", 0) < 0)
+            {
+                window.alert("Invalid email ID");
+                emai1l.focus();
+                return false;
+            }   
+            if (email1.value.indexOf(".", 0) < 0)
+            {
+                window.alert("Invalid email ID");
+                email1.focus();
+                return false;
+            }
+            if ((a.length!=10))
+            {
+                alert("Your Mobile Number must be 10 Integers");
+                document.myform1.phonenumber.select();
+                return false;
+            }        
+	}
+
+    </script>
+</head>
+<body>
+	<div class="loginbox">
+	<img src="pictures/pic1.png" class="picture">
+		<h1>Register Here</h1>
+
+		<!--LOGIN FORM..................................................................-->
+
+		<form name="myform1" method="POST" action="signupphp.php">
+
+			<p>Name</p>
+			<input type="text" name="name" placeholder="Enter First Name" required>
+
+			<p>College Name</p>
+			<input type="text" name="collegename" placeholder="Enter College Name" required>
+
+			<p>Phone Number</p>
+			<input type="number" name="phonenumber" placeholder="Enter Phone Number" required>
+
+			<p>Email ID</p>
+			<input type="text" name="email" placeholder="Enter Email ID" required>
+
+			<p>Password</p>
+			<input type="Password" name="pass" placeholder="Enter New Password" required>
+
+			<input type="submit" name="" value="submit" onclick="validateform1()">
+			<br>
+			<a href="login.html">Have an account?</a>
+		</form>
+	</div>
+</body>
+</html>

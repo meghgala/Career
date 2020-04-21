@@ -1,0 +1,258 @@
+/*engineering=======================================*/
+.engintro{
+position: relative;
+  text-align: left;
+  background-color: white;
+  padding: 24px;
+  color: black;
+  font-size: 150%;
+}
+.eng{
+  position: relative;
+  text-align: center;
+  background-color:white;
+  font-size:300%;
+  color: gray;
+  padding: 2%;
+}
+.engtitle{
+position: relative;
+  
+  text-align: center;
+  background-color:white;
+  font-size:350%;
+  color: black;
+  padding: 1%;
+
+}
+.englogo{
+  background-size: cover;
+  height: 30%;
+  width: 30%;
+}
+/*petroleum engineering============================================*/
+.pet{
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  height: 100%;
+}
+.petlogo{
+  float: left;
+  height: 280px;
+  width: 300px;
+  margin-left: 0%;
+  padding: 3%;
+}
+.pettext{
+  max-width: 100%;
+  padding: 1%;
+  text-align: left;
+  color: white;
+  font-size: 150%;
+
+}
+.pettextlist{
+  max-width: 100%;
+  padding: 1%;
+  text-align: left;
+  color: white;
+  font-size: 80%;
+}
+
+/*electrical engineering======================================*/
+.electronics{
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  height: 100%;
+  padding: 1%;
+}
+.ellogo{
+  float: right;
+  height: 280px;
+  width: 280px;
+  margin-left: 0%;
+  padding: 1%
+}
+.eltext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: black;
+  font-size: 120%;
+}
+.eltextlist{
+  max-width: 100%;
+  text-align: left;
+  color: black;
+  font-size: 85%;
+}
+/*computer engineering==========================================*/
+.computer{
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  height: 100%;
+}
+.complogo{
+  float: left;
+  height: 240px;
+  width: 260px;
+  margin-left: 0%;
+  padding: 2%;
+}
+.comptext{
+  max-width: 100%;
+  padding: 1%;
+  text-align: left;
+  color: white;
+  font-size: 150%;
+}
+.comptextlist{
+  max-width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 80%;
+  padding: 1%;
+}
+/*aerospace engineering======================================*/
+.aerospace{
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  height: 100%;
+  padding: 1%;
+}
+.airlogo{
+  float: right;
+  height: 280px;
+  width: 280px;
+  margin-left: 0%;
+  padding: 1%
+}
+.airtext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: black;
+  font-size: 120%;
+}
+.airtextlist{
+  max-width: 100%;
+  text-align: left;
+  color: black;
+  font-size: 85%;
+}
+/*chemical engineering==========================================*/
+.chemical{
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  height: 100%;
+}
+.chemlogo{
+  float: left;
+  height: 240px;
+  width: 260px;
+  margin-left: 0%;
+  padding: 2%;
+}
+.chemtext{
+  max-width: 100%;
+  padding: 1%;
+  text-align: left;
+  color: white;
+  font-size: 150%;
+}
+.chemtextlist{
+  max-width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 80%;
+  padding: 1%;
+}
+/*material engineering======================================*/
+.material{
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  height: 100%;
+  padding: 1%;
+}
+.matlogo{
+  float: right;
+  height: 280px;
+  width: 280px;
+  margin-left: 0%;
+  padding: 1%
+}
+.mattext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: black;
+  font-size: 120%;
+}
+.mattextlist{
+  max-width: 100%;
+  text-align: left;
+  color: black;
+  font-size: 85%;
+}
+/*civil engineering==========================================*/
+.civil{
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  height: 100%;
+}
+.civillogo{
+  float: left;
+  height: 240px;
+  width: 260px;
+  margin-left: 0%;
+  padding: 2%;
+}
+.civiltext{
+  max-width: 100%;
+  padding: 1%;
+  text-align: left;
+  color: white;
+  font-size: 150%;
+}
+.civiltextlist{
+  max-width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 80%;
+  padding: 1%;
+}
+/*material engineering======================================*/
+.mech{
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  height: 100%;
+  padding: 1%;
+}
+.mechlogo{
+  float: right;
+  height: 280px;
+  width: 280px;
+  margin-left: 0%;
+  padding: 1%
+}
+.mechtext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: black;
+  font-size: 120%;
+}
+.mechtextlist{
+  max-width: 100%;
+  text-align: left;
+  color: black;
+  font-size: 85%;
+}

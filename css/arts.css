@@ -1,0 +1,110 @@
+.arts-intro{
+position: relative;
+  text-align: center;
+  background-color: white;
+  padding: 24px;
+  color: black;
+  font-size: 150%;
+}
+.arts-title{
+position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  font-size:150%;
+  color: black;
+}
+.artslogo{
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+}
+/*-----------------Social studies--------*/
+.socsci{
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  height: 100%;
+}
+.socscilogo{
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin-left: 0%;
+  padding: 28px;
+}
+.socscitext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+  font-size: 120%;
+}
+.socscitextlist{
+  max-width: 100%;
+  text-align: left;
+  color: white;
+}
+/*----history--------*/
+.history{
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  height: 100%;
+}
+.historylogo{
+  float: right;
+  height: 200px;
+  width: 200px;
+  margin-left: 0%;
+  padding: 32px;
+}
+.histtext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: black;
+  font-size: 120%;
+}
+.historytextlist{
+  max-width: 100%;
+  text-align: left;
+  color: black;
+}
+/*----geography--------*/
+.geography{
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  height: 100%;
+}
+.geographylogo{
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin-left: 0%;
+  padding: 28px;
+}
+.geogtext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+  font-size: 120%;
+}
+.geogtextlist{
+  max-width: 100%;
+  text-align: left;
+  color: white;
+}
+
+
+.sci-be-together-section {
+  position: absolute;
+  height: 800px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('images/book3.jpg') center 30% no-repeat;
+  background-size: cover;
+}

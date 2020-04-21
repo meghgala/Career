@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login form design</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+
+	<!--JAVASCRIPT FORM.........................................................-->
+	<script type="text/javascript"> 
+ 	
+ 	function validateform()
+ 	{
+ 		var email1 = document.myform.email;
+ 		    if (email1.value.indexOf("@", 0) < 0)
+            {
+                window.alert("Invalid email ID");
+                emai1l.focus();
+                return false;
+            }   
+            if (email1.value.indexOf(".", 0) < 0)
+            {
+                window.alert("Invalid email ID");
+                email1.focus();
+                return false;
+            }
+	}
+
+    </script>
+</head>
+<body>
+	<div class="loginbox">
+	<img src="pictures/pic1.png" class="picture">
+		<h1>Login Here</h1>
+
+		<!--LOGIN FORM..................................................................-->
+
+		<form name="myform" method="post" action="loginphp.php">
+			<p>Email ID</p>
+			<input type="text" name="email" placeholder="Enter Email ID" required>
+
+			<p>Password</p>
+			<input type="Password" name="pass" placeholder="Enter Password" required>
+
+			<input type="submit" name="" value="submit" onclick="validateform()">
+			<br>
+			<a href="signup.html">Dont have an account?</a>
+		</form>
+	</div>
+
+</body>
+</html>

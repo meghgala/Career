@@ -1,0 +1,126 @@
+/*MEDICAL======================================================*/
+.lawintro{
+position: relative;
+  text-align: left;
+  background-color: white;
+  padding: 4%;
+  color: black;
+  font-size: 150%;
+}
+.lawtitle{
+  position: relative;
+  padding: 3%;
+  background-color: white;
+  font-size:500%;
+  color: black;
+  text-align: center;
+}
+.lawlogo{
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+}
+/*BARRISTER================================================*/
+.barrister{
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  height: 100%;
+}
+.barlogo{
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin-left: 0%;
+  padding: 2%;
+}
+.bartext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+  font-size: 120%;
+}
+.bartextlist{
+  max-width: 100%;
+  text-align: left;
+  color: white;
+}
+/*ADVOCATE===============================================================*/
+.advocate{
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  height: 100%;
+}
+.advlogo{
+  float: right;
+  height: 175px;
+  width: 200px;
+  margin-left: 1%;
+  padding: 3%;
+}
+.advtext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: black;
+  font-size: 120%;
+}
+.advtextlist{
+  max-width: 100%;
+  text-align: left;
+  color: black;
+}
+/*solicitor==============================================================*/
+.solicitor{
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  height: 100%;
+}
+.sollogo{
+  float: left;
+  height: 200px;
+  width: 250px;
+  margin-left: 0%;
+  padding: 28px;
+}
+.soltext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+  font-size: 120%;
+}
+.soltextlist{
+  max-width: 100%;
+  text-align: left;
+  color: white;
+}
+/*LAWYER===============================================================*/
+.lawyer{
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  height: 100%;
+}
+.lalogo{
+  float: right;
+  height: 200px;
+  width: 200px;
+  margin-left: 0%;
+  padding: 32px;
+}
+.latext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: black;
+  font-size: 120%;
+}
+.latextlist{
+  max-width: 100%;
+  text-align: left;
+  color: black;
+}

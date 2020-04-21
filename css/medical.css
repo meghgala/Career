@@ -1,0 +1,152 @@
+/*MEDICAL======================================================*/
+.medintro{
+position: relative;
+  text-align: left;
+  background-color: white;
+  padding: 4%;
+  color: black;
+  font-size: 150%;
+}
+.medtitle{
+  position: relative;
+  padding: 3%;
+  background-color: white;
+  font-size:500%;
+  color: black;
+  text-align: center;
+}
+.medlogo{
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+}
+/*PHYSICIAN================================================*/
+.physician{
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  height: 100%;
+}
+.phylogo{
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin-left: 0%;
+  padding: 28px;
+}
+.phytext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+  font-size: 120%;
+}
+.phytextlist{
+  max-width: 100%;
+  text-align: left;
+  color: white;
+}
+/*DENTAL===============================================================*/
+.dental{
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  height: 100%;
+}
+.denlogo{
+  float: right;
+  height: 200px;
+  width: 200px;
+  margin-left: 0%;
+  padding: 32px;
+}
+.dentext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: black;
+  font-size: 120%;
+}
+.dentextlist{
+  max-width: 100%;
+  text-align: left;
+  color: black;
+}
+/*OPT==============================================================*/
+.opt{
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  height: 100%;
+}
+.optlogo{
+  float: left;
+  height: 200px;
+  width: 250px;
+  margin-left: 0%;
+  padding: 28px;
+}
+.opttext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+  font-size: 120%;
+}
+.opttextlist{
+  max-width: 100%;
+  text-align: left;
+  color: white;
+}
+/*PHARMACY===============================================================*/
+.pharmacy{
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  height: 100%;
+}
+.phalogo{
+  float: right;
+  height: 200px;
+  width: 200px;
+  margin-left: 0%;
+  padding: 32px;
+}
+.phatext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: black;
+  font-size: 120%;
+}
+.phatextlist{
+  max-width: 100%;
+  text-align: left;
+  color: black;
+}
+/*PHYSIOTHERAPIST==============================================================*/
+.phys{
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  height: 100%;
+}
+.physlogo{
+  float: left;
+  height: 200px;
+  width: 250px;
+  margin-left: 0%;
+  padding: 28px;
+}
+.phystext{
+  max-width: 100%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+  font-size: 120%;
+}
+.phystextlist{
+  max-width: 100%;
+  text-align: left;
+  color: white;
+}

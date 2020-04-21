@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Biology 2</title>
+  <link rel="stylesheet" type="text/css" href="style2.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button {
+  border-radius: 4px;
+  background-color: #000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
+  <div id="particles-js">
+    <div id="login">
+      <form name="myform" id="form11" action="iq1/index.html">
+        <h1>QUIZ RULES</h1>
+        <ul>
+          <li>The decision of the quiz-master will be final and will not be subjected to any change.</li>
+          <li>The participants shall not be allowed to  use mobile or other electronic instruments.</li>
+          <li>The questions shall be in the form of multiple choice, True / False statement, Specific-answer question etc.</li>
+          <li>Audience  shall  not give any hints or clues to the competitors.</li>
+          <li>Click down to enter the quiz</li>
+        </ul>
+        <button class="button"><span>Start</span></button>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <script>
+    particlesJS.load('particles-js', 'particles1.json', function(){
+      console.log('particles1.json loaded...');
+    });
+  </script>
+</body>
+</html>
